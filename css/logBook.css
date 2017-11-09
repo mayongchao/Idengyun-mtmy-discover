@@ -1,0 +1,574 @@
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+.navShop,
+.navShopGray {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 2.88rem;
+  box-sizing: border-box;
+  padding: 1.0666666666666667rem 0.64rem 0.64rem 0.64rem;
+  border-bottom: 1px solid #f3f3f3;
+  font-size: 0.7253333333333334rem;
+  line-height: 0.7253333333333334rem;
+  text-align: center;
+  color: #000;
+  background-color: #ffffff;
+}
+.navShop .iconBack,
+.navShopGray .iconBack {
+  width: 0.4266666666666667rem;
+  float: left;
+}
+.navShop .iconMore,
+.navShopGray .iconMore {
+  width: 0.9386666666666666rem;
+  float: right;
+  margin-top: 0.21333333333333335rem;
+}
+.navShop .iconShare,
+.navShopGray .iconShare {
+  position: absolute;
+  width: 0.8106666666666666rem;
+  margin-right: 0.8533333333333334rem;
+  top: 1.024rem;
+  right: 1.7066666666666668rem;
+}
+/*bookUser*/
+.bookUser {
+  width: 100%;
+  height: 2.986666666666667rem;
+  box-sizing: border-box;
+  padding: 0 0.64rem;
+  position: relative;
+  border-bottom: 0.21333333333333335rem solid #f3f3f3;
+}
+.bookUser .bookWrap {
+  position: absolute;
+  top: 1.4933333333333334rem;
+  margin-top: -0.64rem;
+}
+.bookUser .bookWrap .userImg {
+  width: 1.28rem;
+  height: 1.28rem;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  margin-right: 0.4266666666666667rem;
+}
+.bookUser .bookWrap .userImg img {
+  width: 100%;
+  height: 100%;
+}
+.bookUser .bookWrap .userName {
+  float: left;
+}
+.bookUser .bookWrap .userName .name {
+  font-size: 0.64rem;
+  color: #333333;
+}
+.bookUser .bookWrap .userName .date {
+  font-size: 0.512rem;
+  color: #999999;
+  margin-top: 0.21333333333333335rem;
+}
+.bookUser .follow {
+  width: 2.1333333333333333rem;
+  height: 0.8533333333333334rem;
+  border-radius: 1.0666666666666667rem;
+  font-size: 0.4693333333333333rem;
+  color: #ef508d;
+  position: absolute;
+  right: 0.64rem;
+  top: 1.4933333333333334rem;
+  margin-top: -0.4266666666666667rem;
+  border: 1px solid #ef508d;
+  line-height: 0.8533333333333334rem;
+  text-align: center;
+}
+.bookUser .follow .followImg {
+  width: 0.3413333333333333rem;
+  height: 0.3413333333333333rem;
+  display: inline-block;
+}
+.bookUser .follow .followImg img {
+  width: 100%;
+  vertical-align: baseline;
+}
+/*bookShop店铺*/
+.bookShop {
+  box-sizing: border-box;
+  padding: 0 0.64rem;
+  border-bottom: 0.21333333333333335rem solid #f3f3f3;
+}
+.bookShop .shopHead {
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.7066666666666668rem;
+}
+.bookShop .shopHead img {
+  width: 0.64rem;
+  vertical-align: middle;
+  margin-right: 0.21333333333333335rem;
+}
+.bookShop .shopShow {
+  border-bottom: 1px solid #EEEEEE;
+}
+.bookShop .shopShow .shopImg {
+  width: 2.1333333333333333rem;
+  height: 2.1333333333333333rem;
+  overflow: hidden;
+  float: left;
+}
+.bookShop .shopShow .shopImg img {
+  width: 100%;
+  height: 100%;
+}
+.bookShop .shopShow .shopMsg {
+  font-size: 0.64rem;
+  color: #333333;
+  margin-left: 2.56rem;
+  padding-bottom: 0.512rem;
+}
+.bookShop .shopShow .shopMsg img {
+  width: 0.3413333333333333rem;
+  float: right;
+  margin-top: 0.8533333333333334rem;
+}
+.bookShop .shopShow .shopMsg .shopDetails {
+  font-size: 0.5973333333333334rem;
+  color: #999999;
+  margin-top: 0.96rem;
+}
+.bookShop .shopShow .shopMsg .shopDetails span {
+  font-size: 0.5973333333333334rem;
+  color: #333333;
+  margin-left: 0.4266666666666667rem;
+  margin-right: 0.64rem;
+}
+.bookShop .cosmetologist {
+  line-height: 1.7066666666666668rem;
+  font-size: 0.5546666666666666rem;
+  color: #999999;
+}
+.bookShop .cosmetologist span {
+  font-size: 0.5546666666666666rem;
+  color: #333333;
+  margin-left: 0.4266666666666667rem;
+}
+.bookShop .cosmetologist img {
+  width: 0.3413333333333333rem;
+  float: right;
+  margin-top: 0.64rem;
+}
+/*相关商品*/
+.relatedPro {
+  box-sizing: border-box;
+  padding: 0 0.64rem;
+}
+.relatedPro .relatedProHead {
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.7066666666666668rem;
+}
+.relatedPro .relatedProHead img {
+  margin-right: 0.21333333333333335rem;
+  width: 0.64rem;
+}
+.relatedPro .productMsg {
+  width: 100%;
+  height: 4.693333333333333rem;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  padding: 0.8533333333333334rem 0.4266666666666667rem;
+  position: relative;
+}
+.relatedPro .productMsg .productImg {
+  width: 2.986666666666667rem;
+  height: 2.986666666666667rem;
+  overflow: hidden;
+  float: left;
+}
+.relatedPro .productMsg .productImg img {
+  width: 100%;
+  height: 100%;
+}
+.relatedPro .productMsg .goSee {
+  width: 2.24rem;
+  height: 1.024rem;
+  background: url("../images/bg@2x.png") center no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.5546666666666666rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.1733333333333333rem;
+  position: absolute;
+  right: -0.128rem;
+  bottom: 0.64rem;
+}
+.relatedPro .productText {
+  margin-left: 3.6266666666666665rem;
+  font-size: 0.64rem;
+  color: #333333;
+}
+.relatedPro .productText .msg {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 0.8533333333333334rem;
+}
+.relatedPro .productText .buyNumber {
+  margin-top: 0.8533333333333334rem;
+  color: #666666;
+  font-size: 0.5546666666666666rem;
+}
+.relatedPro .productText .buyNumber span {
+  color: #ef508d;
+}
+/*护理日志*/
+.nurseLog {
+  box-sizing: border-box;
+  padding: 0.64rem;
+  background-color: #F3F3F3;
+  margin-top: 0.8533333333333334rem;
+}
+.nurseLog .nurseLogHead {
+  font-size: 0.5973333333333334rem;
+  color: #333333;
+  margin-bottom: 0.4266666666666667rem;
+  position: relative;
+}
+.nurseLog .nurseLogHead span {
+  display: inline-block;
+  color: #ef508d;
+  float: right;
+}
+.nurseLog .nurseLogHead span img {
+  vertical-align: middle;
+  width: 0.23466666666666666rem;
+  height: 0.5973333333333334rem;
+}
+.nurseLog .product {
+  font-size: 0.5546666666666666rem;
+  color: #ef508d;
+}
+.nurseLog .product img {
+  width: 0.512rem;
+  margin-right: 0.21333333333333335rem;
+}
+.nurseLog .logList > li:last-child > .lineRed {
+  height: 9.984rem;
+}
+.nurseLog .logList .logItem {
+  position: relative;
+}
+.nurseLog .logList .logItem .lineRed {
+  display: inline-block;
+  position: absolute;
+  width: 1px;
+  height: 11.093333333333334rem;
+  background-color: #ef508d;
+  left: 0.128rem;
+  top: 0.4266666666666667rem;
+}
+.nurseLog .logList .logItem .logHead {
+  font-size: 0.5546666666666666rem;
+  color: #666666;
+  margin-top: 0.64rem;
+  margin-bottom: 0.64rem;
+}
+.nurseLog .logList .logItem .logHead .dot {
+  display: inline-block;
+  width: 0.2986666666666667rem;
+  height: 0.2986666666666667rem;
+  border-radius: 50%;
+  background-color: #ef508d;
+  vertical-align: middle;
+  margin-right: 0.512rem;
+  margin-top: -0.21333333333333335rem;
+}
+.nurseLog .logList .logItem .logHead .count {
+  font-size: 0.768rem;
+}
+.nurseLog .logList .logItem .logHead .date {
+  font-size: 0.5546666666666666rem;
+  color: #999999;
+  margin-left: 0.4266666666666667rem;
+}
+.nurseLog .logList .logItem .logContentWrapper {
+  box-sizing: border-box;
+  padding-left: 0.8533333333333334rem;
+}
+.nurseLog .logList .logItem .logContentWrapper .logContent {
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 0.64rem;
+}
+.nurseLog .logList .logItem .logContentWrapper .logContent .logContentText {
+  font-size: 0.5546666666666666rem;
+  color: #666666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 0.8533333333333334rem;
+  margin-bottom: 0.64rem;
+}
+.nurseLog .logList .logItem .logContentWrapper .logContent .logImgShow {
+  display: flex;
+  justify-content: flex-start;
+}
+.nurseLog .logList .logItem .logContentWrapper .logContent .logImgShow > li:nth-child(2) {
+  margin: 0 0.5333333333333333rem;
+}
+.nurseLog .logList .logItem .logContentWrapper .logContent .logImgShow .photo {
+  width: 3.84rem;
+  height: 3.84rem;
+  overflow: hidden;
+  border-radius: 0.21333333333333335rem;
+}
+.nurseLog .logList .logItem .logContentWrapper .logContent .logImgShow .photo img {
+  width: 100%;
+  height: 100%;
+}
+.nurseLog .logList .logItem .logContentWrapper .logContent .logAttenList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5333333333333333rem;
+  margin-bottom: 0.64rem;
+}
+.nurseLog .logList .logItem .logContentWrapper .logContent .logAttenList .logAttenItem {
+  font-size: 0.5546666666666666rem;
+  color: #B8B8B8;
+}
+.nurseLog .logList .logItem .logContentWrapper .logContent .logAttenList .logAttenItem img {
+  width: 0.64rem;
+  margin-right: 0.21333333333333335rem;
+  vertical-align: middle;
+  margin-top: -0.10666666666666667rem;
+}
+/*相关日志*/
+.logAbout .logBorder {
+  box-sizing: border-box;
+  padding: 0 0.64rem;
+}
+.logAbout .logBorder .logHeadWrap {
+  border-bottom: 1px solid #F3F3F3;
+}
+.logAbout .logBorder .logHeadWrap .logHead {
+  font-size: 0.5973333333333334rem;
+  color: #333333;
+  line-height: 1.7066666666666668rem;
+}
+.logAbout .logBorder .logHeadWrap .logHead img {
+  width: 0.5546666666666666rem;
+  vertical-align: middle;
+  margin-top: -0.17066666666666666rem;
+  margin-right: 0.10666666666666667rem;
+}
+/*用户列表*/
+.userList {
+  box-sizing: border-box;
+  padding: 0 0.64rem;
+  border-bottom: 0.21333333333333335rem solid #f3f3f3;
+}
+.userHeader {
+  position: relative;
+  margin-top: 0.8533333333333334rem;
+}
+.userHeader .userImg {
+  width: 1.28rem;
+  height: 1.28rem;
+  border-radius: 50%;
+  float: left;
+}
+.userHeader .userImg img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.userHeader .userMessage {
+  font-size: 0.5973333333333334rem;
+  color: #363636;
+  font-weight: bold;
+  line-height: 0.5973333333333334rem;
+  margin-left: 1.7066666666666668rem;
+  margin-bottom: 0.21333333333333335rem;
+}
+.userHeader .userMessage img {
+  width: 0.5333333333333333rem;
+  height: 0.5333333333333333rem;
+  vertical-align: top;
+}
+.userHeader .userMessage .levelNum {
+  color: #ef508d;
+  font-size: 0.512rem;
+  font-weight: bold;
+  margin-left: -6px;
+}
+.userHeader .userText {
+  font-size: 0.5973333333333334rem;
+  color: #999999 ;
+  margin-left: 1.7066666666666668rem;
+}
+.userHeader .follow {
+  width: 2.1333333333333333rem;
+  height: 0.8533333333333334rem;
+  border-radius: 1.0666666666666667rem;
+  font-size: 0.4693333333333333rem;
+  color: #ef508d;
+  position: absolute;
+  right: 0rem;
+  top: 0.21333333333333335rem;
+  border: 1px solid #ef508d;
+  line-height: 0.8533333333333334rem;
+  text-align: center;
+}
+.userHeader .follow .followImg {
+  width: 0.3413333333333333rem;
+  height: 0.3413333333333333rem;
+  display: inline-block;
+}
+.userHeader .follow .followImg img {
+  width: 100%;
+  vertical-align: baseline;
+}
+.userPhoto {
+  margin-top: 0.8533333333333334rem;
+}
+.userPhoto .left,
+.userPhoto .right {
+  width: 7.1466666666666665rem;
+  height: 7.1466666666666665rem;
+  border-radius: 0.21333333333333335rem;
+  background-color: red;
+}
+.userPhoto .left {
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.userPhoto .left img {
+  width: 100%;
+  height: 100%;
+}
+.userPhoto .left .before,
+.userPhoto .right .after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2.1333333333333333rem;
+  height: 0.8533333333333334rem;
+  border-radius: 0 0.21333333333333335rem 0 0.21333333333333335rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 0.5546666666666666rem;
+  line-height: 0.8533333333333334rem;
+  text-align: center;
+}
+.userPhoto .right {
+  position: relative;
+  float: right;
+  overflow: hidden;
+}
+.userPhoto .right img {
+  width: 100%;
+  height: 100%;
+}
+.userComment {
+  font-size: 0.5973333333333334rem;
+  color: #8C8C8C ;
+  margin-top: 0.5333333333333333rem;
+  margin-bottom: 0.5333333333333333rem;
+  line-height: 0.8106666666666666rem;
+}
+.userPro {
+  line-height: 0.5546666666666666rem;
+}
+.userPro .iconCom {
+  display: inline-block;
+  width: 0.512rem;
+  height: 0.512rem;
+  background: url("../images/icon_Commodity-link@2x.png") no-repeat;
+  background-size: 100%;
+}
+.userPro .userProName {
+  font-size: 0.5546666666666666rem;
+  color: #ef508d;
+}
+.attention {
+  line-height: 0.5546666666666666rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8533333333333334rem 0 0.5333333333333333rem 0;
+}
+.view .viewImg {
+  display: inline-block;
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url("../images/icon_browse@2x.png") center no-repeat;
+  background-size: 100%;
+}
+.view img,
+.support img,
+.comment img {
+  width: 0.64rem;
+  vertical-align: middle;
+}
+.view .viewNum,
+.support .viewNum,
+.comment .viewNum {
+  font-size: 0.5546666666666666rem;
+  color: #B8B8B8;
+}
+/*loading*/
+.loadingImg {
+  width: 100%;
+  height: 4.693333333333333rem;
+  font-size: 0.512rem;
+  color: #000000;
+  line-height: 4.693333333333333rem;
+  background-color: #F3F3F3 ;
+  text-align: center;
+}
+.loadingImg img {
+  width: 2.3466666666666667rem;
+  vertical-align: middle;
+}
+/*回到顶部*/
+.goTop {
+  display: inline-block;
+  position: fixed;
+  bottom: 1.7066666666666668rem;
+  right: 0.8533333333333334rem;
+}
+.goTop img {
+  width: 2.1333333333333333rem;
+  display: block;
+}
+.mescroll-downwarp .downwarp-tip,
+.mescroll-upwarp .upwarp-tip,
+.mescroll-upwarp .upwarp-nodata {
+  width: 100%;
+  line-height: 2.56rem;
+  display: inline-block;
+  font-size: 0.512rem;
+  color: #666666;
+  text-align: center;
+  background-color: #F3F3F3;
+}

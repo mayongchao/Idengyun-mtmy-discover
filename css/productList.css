@@ -1,0 +1,275 @@
+/*产品列表*/
+/*produceHead滑动*/
+#header .swiper-slide {
+  margin: 0 0.8533333333333334rem;
+  width: auto;
+  font-size: 0.5973333333333334rem;
+  color: #000000;
+  line-height: 2.1333333333333333rem;
+}
+#top-line {
+  width: 100%;
+  height: 0.064rem;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+.activeShowItem {
+  font-size: 0.64rem;
+  color: #ef508d!important;
+  border-bottom: 0.08533333333333333rem solid #ef508d;
+}
+.userList {
+  box-sizing: border-box;
+  padding: 0 0.64rem;
+}
+.userHeader {
+  position: relative;
+  margin-top: 0.8533333333333334rem;
+}
+.userHeader .userImg {
+  width: 1.28rem;
+  height: 1.28rem;
+  border-radius: 50%;
+  float: left;
+  overflow: hidden;
+}
+.userHeader .userImg img {
+  width: 100%;
+  height: 100%;
+}
+.userHeader .userMessage {
+  font-size: 0.5973333333333334rem;
+  color: #363636;
+  font-weight: bold;
+  line-height: 0.5973333333333334rem;
+  margin-left: 1.7066666666666668rem;
+  margin-bottom: 0.21333333333333335rem;
+}
+.userHeader .userMessage img {
+  width: 0.5333333333333333rem;
+  height: 0.5333333333333333rem;
+  vertical-align: top;
+}
+.userHeader .userMessage .levelNum {
+  color: #ef508d;
+  font-size: 0.512rem;
+  font-weight: bold;
+  margin-left: -6px;
+}
+.userHeader .userText {
+  font-size: 0.5973333333333334rem;
+  color: #999999 ;
+  margin-left: 1.7066666666666668rem;
+}
+.userHeader .follow {
+  width: 2.1333333333333333rem;
+  height: 0.8533333333333334rem;
+  border-radius: 1.0666666666666667rem;
+  font-size: 0.4693333333333333rem;
+  color: #ef508d;
+  position: absolute;
+  right: 0rem;
+  top: 0.21333333333333335rem;
+  border: 1px solid #ef508d;
+  line-height: 0.8533333333333334rem;
+  text-align: center;
+}
+.userHeader .follow .followImg {
+  width: 0.3413333333333333rem;
+  height: 0.3413333333333333rem;
+  display: inline-block;
+}
+.userHeader .follow .followImg img {
+  width: 100%;
+  vertical-align: baseline;
+}
+.userPhoto {
+  margin-top: 0.8533333333333334rem;
+}
+.userPhoto .left,
+.userPhoto .right {
+  width: 7.1466666666666665rem;
+  height: 7.1466666666666665rem;
+  border-radius: 0.21333333333333335rem;
+  background-color: red;
+}
+.userPhoto .left {
+  background: url("../images/userBefore.png") center no-repeat;
+  background-size: 100%;
+  float: left;
+  position: relative;
+}
+.userPhoto .left .before,
+.userPhoto .right .after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2.1333333333333333rem;
+  height: 0.8533333333333334rem;
+  border-radius: 0 0.21333333333333335rem 0 0.21333333333333335rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 0.5546666666666666rem;
+  line-height: 0.8533333333333334rem;
+  text-align: center;
+}
+.userPhoto .right {
+  position: relative;
+  background: url("../images/userAfter.png") center no-repeat;
+  background-size: 100%;
+  float: right;
+}
+.userComment {
+  font-size: 0.5973333333333334rem;
+  color: #8C8C8C ;
+  margin-top: 0.5333333333333333rem;
+  margin-bottom: 0.5333333333333333rem;
+  line-height: 0.8106666666666666rem;
+}
+.userPro {
+  line-height: 0.5546666666666666rem;
+}
+.userPro .iconCom {
+  display: inline-block;
+  width: 0.512rem;
+  height: 0.512rem;
+  background: url("../images/icon_Commodity-link@2x.png") no-repeat;
+  background-size: 100%;
+}
+.userPro .userProName {
+  font-size: 0.5546666666666666rem;
+  color: #ef508d;
+}
+.attention {
+  line-height: 0.5546666666666666rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8533333333333334rem 0 0.5333333333333333rem 0;
+}
+.view .viewImg {
+  display: inline-block;
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url("../images/icon_browse@2x.png") center no-repeat;
+  background-size: 100%;
+}
+.view img,
+.support img,
+.comment img {
+  width: 0.64rem;
+  vertical-align: middle;
+}
+.view .viewNum,
+.support .viewNum,
+.comment .viewNum {
+  font-size: 0.5546666666666666rem;
+  color: #B8B8B8;
+}
+.userShow {
+  box-sizing: border-box;
+  padding: 0 0.64rem;
+  height: 8.853333333333333rem;
+  border-bottom: 0.21333333333333335rem solid #eeeeee;
+}
+.userShow .userTitle {
+  font-size: 0.7253333333333334rem;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.7253333333333334rem;
+  margin: 0.7466666666666667rem 0 0.64rem 0;
+}
+.userShow .userText {
+  position: relative;
+}
+.userShow .userText .viewP {
+  position: absolute;
+  right: 5.12rem;
+  bottom: -1.28rem;
+}
+.userShow .userText .userProShow {
+  position: absolute;
+  left: 0;
+  bottom: -1.28rem;
+}
+.userShow .userText .userTextLeft {
+  font-size: 0.5546666666666666rem;
+  color: #999;
+  width: 9.6rem;
+  height: 3.2rem;
+  line-height: 200%;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  float: left;
+}
+.userShow .userText .iconLink {
+  background: url("../images/btn_Article-links@2x.png") no-repeat;
+  background-size: 100%;
+}
+.userShow .userTextRight {
+  width: 4.266666666666667rem;
+  height: 4.266666666666667rem;
+  background: url("../images/userShowImg.png") no-repeat;
+  background-size: 100%;
+  border-radius: 0.17066666666666666rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.userShow .userTextRight .imgNum {
+  font-size: 0.5546666666666666rem;
+  color: #ffffff;
+  position: absolute;
+  right: 0.21333333333333335rem;
+  bottom: 0.21333333333333335rem;
+}
+.bigPhotoShow .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+.bigPhotoShow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+}
+.bigPhotoShow .swiper-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.bigPhotoShow .swiper-wrapper .swiper-slide {
+  align-self: center;
+}
+.bigPhotoShow .swiper-wrapper .swiper-slide a {
+  display: inline-block;
+}
+.bigPhotoShow .swiper-wrapper .swiper-slide a img {
+  width: 100%;
+}
+/*底部loading图*/
+.loadingImg {
+  width: 100%;
+  height: 4.693333333333333rem;
+  font-size: 0.512rem;
+  color: #000000;
+  line-height: 4.693333333333333rem;
+  background-color: #F3F3F3 ;
+  text-align: center;
+}
+.loadingImg img {
+  width: 2.3466666666666667rem;
+  vertical-align: middle;
+}
+.Swiper04 li {
+  display: inline;
+}
