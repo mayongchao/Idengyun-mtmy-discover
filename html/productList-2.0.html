@@ -188,7 +188,7 @@
             setTimeout(function () {
                 $.ajax({
                     type: 'GET',
-                    url: 'http://wx.axingxing.com/activity/Activity/commentlist.html?id=1',
+                    url: '../json/pdlist1.json',
                     dataType: 'json',
                     success: function(data){
 //                        console.log(data)
@@ -197,12 +197,9 @@
                         //pdType 全部商品0; 奶粉1; 面膜2; 图书3;
                         if(pdType==0){
                             //全部商品 (模拟分页数据)
-                            console.log(pageNum,pageSize,data.data.list.length)
                             for (var i = (pageNum-1)*pageSize; i < pageNum*pageSize; i++) {
-                                if(i==data.data.list.length) break;
+                                if(i==data.length) break;
                                 listData.push(data[i]);
-                                console.log(data[i])
-                                console.log(typeof data[i])
                             }
                         }else if(pdType==1){
                             //奶粉

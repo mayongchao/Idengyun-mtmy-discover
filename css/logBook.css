@@ -269,6 +269,9 @@
   width: 0.512rem;
   margin-right: 0.21333333333333335rem;
 }
+.nurseLog .logList {
+  overflow: hidden;
+}
 .nurseLog .logList > li:last-child > .lineRed {
   height: 9.984rem;
 }
